@@ -37,3 +37,50 @@
     transform: rotate(360deg);
   }
 }
+
+.calc-wrapper {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.calc-display {
+  width: 100%;
+  background-color: #7a7c8e;
+  color: #fff;
+  height: 40px;
+  text-align: right;
+  font-size: 28px;
+}
+
+.calc-row {
+  width: 100%;
+}
+
+.cal-btn-normal {
+  width: 25%;
+  background-color: #ccc;
+  color: #000;
+  height: 40px;
+  border: #fff 1px solid;
+}
+
+.cal-btn-double {
+  width: 50%;
+  background-color: #ccc;
+  color: #000;
+  height: 40px;
+  border: #fff 1px solid;
+}
+
+.cal-btn-special {
+  width: 25%;
+  background-color: #ffa600;
+  color: #000;
+  height: 40px;
+  border: #fff 1px solid;
+}
+
+button:hover {
+  background-color: #7a7c8e;
+  color: #fff;
+}
