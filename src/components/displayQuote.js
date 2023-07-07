@@ -27,9 +27,11 @@ function DisplayQuote() {
     fetchMyQuote();
   }, []);
 
-  return (
-    <div>{myQuote}</div>
-  );
-}
+  if (quoteLoading) {
+    return <div>Loading...</div>;
+  }
 
-export default DisplayQuote;
+  if (quoteError !== null) {
+    return <div>{quoteError}</div>;
+  }
+}
