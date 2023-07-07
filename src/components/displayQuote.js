@@ -10,7 +10,7 @@ function DisplayQuote() {
     const fetchMyQuote = async () => {
       try {
         const res = await axios.get(
-          'https://api.api-ninjas.com/v1/quotes?category=happiness',
+          'https://api.api-ninjas.com/v1/quotes?category=intelligence',
           {
             headers: {
               'X-Api-Key': 'ATf+VXxLh6Yl09+4+giG+Q==RBBQkOlEI1fFNdwz',
