@@ -34,4 +34,8 @@ function DisplayQuote() {
   if (quoteError !== null) {
     return <div>{quoteError}</div>;
   }
+
+  return <div>{myQuote}</div>; // Return the quote JSX
 }
+
+export default DisplayQuote;
