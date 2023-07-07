@@ -51,6 +51,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **entry point for projects**
+- **Set up React**
+- **Make use of Big.js**
+- **Add calc operations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
