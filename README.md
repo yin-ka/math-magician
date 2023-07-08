@@ -54,6 +54,8 @@
 - **Set up React**
 - **Make use of Big.js**
 - **Add calc operations**
+- **Add dynamic Quote**
+- **Use Hooks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
