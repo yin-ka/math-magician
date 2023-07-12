@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from '../styles/Home.module.css';
 
 function Home() {
   return (
-    <div>
-      <h4>Welcome to our page!</h4>
+    <div className={styles.container}>
+      <h4 className={styles.title}>Welcome to our page!</h4>
       <p>
         Soon oft he and vexed unto are wassailers feere little.
         Sad in had mirthful the was few, into but basked of grief and mothernot and,
