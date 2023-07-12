@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
 
-function MyCalculator() {
+function Calculator() {
   const [obj, setObj] = useState({ total: 0, next: null, operation: null });
 
   const clickHandler = (event) => {
@@ -54,4 +54,4 @@ function MyCalculator() {
   );
 }
 
-export default MyCalculator;
+export default Calculator;
