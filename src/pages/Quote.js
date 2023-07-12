@@ -1,8 +1,11 @@
 import React from 'react';
+import DisplayQuote from '../components/displayQuote';
 
 function Quote() {
   return (
-    <div>Quote</div>
+    <div>
+      <DisplayQuote />
+    </div>
   );
 }
 
