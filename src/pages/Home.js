@@ -15,7 +15,9 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-        optio, eaque rerum! Provident similique accusantium nemo autem.
+        optio, eaque rerum! Provident similique accusantium nemo autem.Uomini dellocchio
+        tale delle e le dio, facciamo non manifestamente cose a che alcun cosa segreto.
+        In modo forse sue.
       </p>
     </div>
   );

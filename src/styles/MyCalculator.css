@@ -5,7 +5,7 @@
 }
 
 .message {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 25px;
-  padding-top: 30px;
+  margin: -5px;
 }

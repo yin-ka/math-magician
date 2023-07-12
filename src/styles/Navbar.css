@@ -3,7 +3,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
-  background-color: bisque;
+  background-color: rgb(247, 223, 194);
 }
 
 .nav-item {

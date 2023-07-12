@@ -41,14 +41,14 @@
 .calc-wrapper {
   width: 35%;
   margin-left: auto;
-  margin-right: 40px;
+  margin-right: 2rem;
 }
 
 .calc-display {
   width: 100%;
   background-color: #7a7c8e;
-  color: #fff;
-  height: 60px;
+  color: hsl(0, 0%, 99%);
+  height: 80px;
   text-align: right;
   font-size: 28px;
 }
@@ -75,7 +75,7 @@
 
 .cal-btn-special {
   width: 25%;
-  background-color: #ffa600;
+  background-color: #ffae16;
   color: #000;
   height: 60px;
   border: #fff 1px solid;
