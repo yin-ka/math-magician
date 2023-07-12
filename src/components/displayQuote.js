@@ -26,16 +26,19 @@ function DisplayQuote() {
     };
     fetchMyQuote();
   }, []);
+  const styles = {
+    color: 'black', fontSize: '20px', fontWeight: 400, textAlign: 'center', marginTop: '100px',
+  };
 
   if (quoteLoading) {
-    return <div>Loading...</div>;
+    return <div style={styles}>Loading...</div>;
   }
 
   if (quoteError !== null) {
-    return <div>{quoteError}</div>;
+    return <div style={styles}>{quoteError}</div>;
   }
 
-  return <div>{myQuote}</div>; // Return the quote JSX
+  return <div style={styles}>{myQuote}</div>; // Return the quote JSX
 }
 
 export default DisplayQuote;
