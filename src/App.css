@@ -39,15 +39,16 @@
 }
 
 .calc-wrapper {
-  width: 20%;
-  margin-left: 40%;
+  width: 35%;
+  margin-left: auto;
+  margin-right: 2rem;
 }
 
 .calc-display {
   width: 100%;
   background-color: #7a7c8e;
-  color: #fff;
-  height: 40px;
+  color: hsl(0, 0%, 99%);
+  height: 80px;
   text-align: right;
   font-size: 28px;
 }
@@ -60,7 +61,7 @@
   width: 25%;
   background-color: #ccc;
   color: #000;
-  height: 40px;
+  height: 60px;
   border: #fff 1px solid;
 }
 
@@ -68,15 +69,15 @@
   width: 50%;
   background-color: #ccc;
   color: #000;
-  height: 40px;
+  height: 60px;
   border: #fff 1px solid;
 }
 
 .cal-btn-special {
   width: 25%;
-  background-color: #ffa600;
+  background-color: #ffae16;
   color: #000;
-  height: 40px;
+  height: 60px;
   border: #fff 1px solid;
 }
 

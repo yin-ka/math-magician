@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
+import '../styles/MyCalculator.css';
 
-function MyCalculator() {
+function Calculator() {
   const [obj, setObj] = useState({ total: 0, next: null, operation: null });
 
   const clickHandler = (event) => {
@@ -15,43 +16,46 @@ function MyCalculator() {
   const { total, next, operation } = obj;
 
   return (
-    <div className="calc-wrapper">
-      <div className="calc-display">
-        {total}
-        {operation}
-        {next}
-      </div>
-      <div className="calc-row">
-        <Button title="AC" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="+/-" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="%" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="÷" cname="cal-btn-special" onClick={clickHandler} />
-      </div>
-      <div className="calc-row">
-        <Button title="7" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="8" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="9" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="x" cname="cal-btn-special" onClick={clickHandler} />
-      </div>
-      <div className="calc-row">
-        <Button title="4" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="5" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="6" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="-" cname="cal-btn-special" onClick={clickHandler} />
-      </div>
-      <div className="calc-row">
-        <Button title="1" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="2" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="3" cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="+" cname="cal-btn-special" onClick={clickHandler} />
-      </div>
-      <div className="calc-row">
-        <Button title="0" cname="cal-btn-double" onClick={clickHandler} />
-        <Button title="." cname="cal-btn-normal" onClick={clickHandler} />
-        <Button title="=" cname="cal-btn-special" onClick={clickHandler} />
+    <div className="container-calc">
+      <h4 className="message">Let&apos;s do some math!</h4>
+      <div className="calc-wrapper">
+        <div className="calc-display">
+          {total}
+          {operation}
+          {next}
+        </div>
+        <div className="calc-row">
+          <Button title="AC" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="+/-" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="%" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="÷" cname="cal-btn-special" onClick={clickHandler} />
+        </div>
+        <div className="calc-row">
+          <Button title="7" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="8" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="9" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="x" cname="cal-btn-special" onClick={clickHandler} />
+        </div>
+        <div className="calc-row">
+          <Button title="4" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="5" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="6" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="-" cname="cal-btn-special" onClick={clickHandler} />
+        </div>
+        <div className="calc-row">
+          <Button title="1" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="2" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="3" cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="+" cname="cal-btn-special" onClick={clickHandler} />
+        </div>
+        <div className="calc-row">
+          <Button title="0" cname="cal-btn-double" onClick={clickHandler} />
+          <Button title="." cname="cal-btn-normal" onClick={clickHandler} />
+          <Button title="=" cname="cal-btn-special" onClick={clickHandler} />
+        </div>
       </div>
     </div>
   );
 }
 
-export default MyCalculator;
+export default Calculator;
