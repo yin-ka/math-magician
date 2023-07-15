@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.calc-wrapper {
+  width: 35%;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.calc-display {
+  width: 100%;
+  background-color: #7a7c8e;
+  color: hsl(0, 0%, 99%);
+  height: 80px;
+  text-align: right;
+  font-size: 28px;
+}
+
+.calc-row {
+  width: 100%;
+}
+
+.cal-btn-normal {
+  width: 25%;
+  background-color: #ccc;
+  color: #000;
+  height: 60px;
+  border: #fff 1px solid;
+}
+
+.cal-btn-double {
+  width: 50%;
+  background-color: #ccc;
+  color: #000;
+  height: 60px;
+  border: #fff 1px solid;
+}
+
+.cal-btn-special {
+  width: 25%;
+  background-color: #ffae16;
+  color: #000;
+  height: 60px;
+  border: #fff 1px solid;
+}
+
+button:hover {
+  background-color: #7a7c8e;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+.container-calc {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+
+.message {
+  font-weight: 700;
+  font-size: 25px;
+  margin: -5px;
+}
